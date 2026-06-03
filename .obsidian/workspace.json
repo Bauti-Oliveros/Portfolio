@@ -11,14 +11,12 @@
             "id": "50dd325e147ff3f1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
-                "mode": "source",
-                "source": false
+                "file": "ping.png"
               },
-              "icon": "lucide-file",
-              "title": "writeup_meow"
+              "icon": "lucide-image",
+              "title": "ping"
             }
           }
         ]
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +101,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Enlaces entrantes de writeup_meow"
+              "title": "Enlaces entrantes"
             }
           },
           {
@@ -113,12 +110,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Enlaces salientes de writeup_meow"
+              "title": "Enlaces salientes"
             }
           },
           {
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
+                "file": "Captura de pantalla 2026-04-29 190142.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Esquema de writeup_meow"
+              "title": "Esquema de Captura de pantalla 2026-04-29 190142"
             }
           }
         ]
@@ -183,13 +179,13 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "50dd325e147ff3f1",
+  "active": "fcb5a4f38c60d838",
   "lastOpenFiles": [
-    "flag.png",
-    "telnet.png",
-    "nmap.png",
     "ping.png",
     "Captura de pantalla 2026-04-29 190142.png",
-    "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md"
+    "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
+    "flag.png",
+    "telnet.png",
+    "nmap.png"
   ]
 }
