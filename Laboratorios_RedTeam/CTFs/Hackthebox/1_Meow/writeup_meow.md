@@ -14,7 +14,7 @@ El primer paso consistió en verificar la conectividad con la máquina objetivo 
 ping -c 4 10.129.154.105
 ```
 
-![Ping]![[ping.png]]
+![Ping](ping.png)
 
 Una vez confirmada la conectividad, procedí con el escaneo de puertos y detección de versiones de servicios utilizando Nmap para mapear la superficie de ataque.
 
@@ -22,7 +22,7 @@ Una vez confirmada la conectividad, procedí con el escaneo de puertos y detecci
 sudo nmap -sV 10.129.154.105
 ```
 
-![Escaneo Nmap]![[nmap.png]]
+![Escaneo Nmap](nmap.png)
 
 **Resultados del escaneo:** Se identificó que el puerto `23/tcp` se encontraba abierto, ejecutando el servicio **Telnet** (`Linux telnetd`).
 ## 2. Explotación y Compromiso
@@ -33,7 +33,7 @@ Dado que Telnet es un protocolo heredado y conocido por sus debilidades de segur
 telnet 10.129.154.105
 ```
 
-![Conexión Telnet]![[telnet.png]]
+![Conexión Telnet](telnet.png)
 
 Al solicitar credenciales, probé el acceso con el usuario por defecto de máximo privilegio (`root`) sin ingresar ninguna contraseña. El sistema permitió el inicio de sesión exitoso.
 
@@ -44,7 +44,7 @@ ls
 cat flag.txt
 ```
 
-![Obtención de la flag]![[flag.png]]
+![Obtención de la flag](flag.png)
 ## 3. Reporte de Vulnerabilidad y Riesgo
 
 - **Vulnerabilidad Principal:** El sistema permite el acceso remoto mediante Telnet utilizando la cuenta de administrador (`root`) con una credencial en blanco (ausencia de contraseña).
