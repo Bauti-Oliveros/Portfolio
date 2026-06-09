@@ -8,17 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50dd325e147ff3f1",
+            "id": "ed33acbfcb5e7842",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "writeup_meow"
+              "title": "README"
             }
           }
         ]
@@ -183,15 +183,18 @@
       "bases:Crear nueva base": false
     }
   },
-  "active": "50dd325e147ff3f1",
+  "active": "ed33acbfcb5e7842",
   "lastOpenFiles": [
+    "Laboratorios_RedTeam/CTFs/Hackthebox/2_Fawn.md",
+    "touch .gitignore.md",
+    "README.md",
+    "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
     "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/ping.png",
     "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/nmap.png",
     "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/flag.png",
     "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/telnet.png",
     "Captura de pantalla 2026-04-29 190142.png",
     "ping.png",
-    "Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/writeup_meow.md",
     "flag.png",
     "telnet.png",
     "nmap.png"
