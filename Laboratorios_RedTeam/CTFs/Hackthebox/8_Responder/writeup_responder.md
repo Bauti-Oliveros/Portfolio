@@ -20,11 +20,13 @@
 ## 📸 Evidencias
 
 *(Fase de Reconocimiento)*
+
 ![Escaneo rápido bloqueado](primer_nmap.png)
 ![Escaneo detallado exitoso](nmap_detallado.png)
 ![Puerto WinRM detectado](nmap_puerto.png)
 
 *(Troubleshooting e Instalación de Responder)*
+
 ![Clonando repositorio de Responder](responder.png)
 ![Error de dependencia aioquic](responder_python.png)
 ![Error de entorno PEP 668 al usar pip](dependencias1.png)
@@ -33,14 +35,17 @@
 ![Responder a la escucha en tun0](listening.png)
 
 *(Explotación y Captura)*
+
 ![Captura del hash NetNTLMv2|612](credenciales_hash.png)
 
 *(Troubleshooting de Cracking)*
+
 ![Intento manual fallido de copiar el hash](hash.png)
 ![Error de formato en John The Ripper](johntheripper.png)
 ![Contraseña crackeada desde el log automático](password.png)
 
 *(Post-Explotación)*
+
 ![Acceso vía WinRM y obtención de flag](flag.png)
 
 ---

@@ -17,14 +17,17 @@
 ## 📸 Evidencias
 
 *(Fase de Reconocimiento)*
+
 ![Escaneo UDP detectando TFTP](nmap.png)
 ![Escaneo TCP detectando puerto 80 y LFI](nmap2.png)
 
 *(Explotación)*
+
 ![Subida de webshell por TFTP y Reverse Shell](tftp.png)
 ![Estabilización de shell y cambio al usuario Mike](tftp2.png)
 
 *(Escalada de Privilegios)*
+
 ![Creación y configuración del contenedor LXC](tftp4.png)
 ![Lectura de la flag de usuario desde el montaje](flag.png)
 ![Ejecución del contenedor y lectura de flag de root](tftp3.png)

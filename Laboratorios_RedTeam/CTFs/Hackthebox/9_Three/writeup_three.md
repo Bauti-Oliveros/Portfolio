@@ -23,21 +23,26 @@
 ## 📸 Evidencias
 
 *(Reconocimiento)*
+
 ![Escaneo Nmap](nmap.png)
 ![Verificación de IP VPN local](ip_a.png)
 
 *(Enumeración de VHOSTS)*
+
 ![Falsos positivos masivos en Gobuster](gobuster.png)
 ![Enumeración exitosa de VHOSTS](gobuster2.png)
 
 *(Interacción con S3)*
+
 ![Configuración y lectura del bucket S3](aws.png)
 ![Archivos descubiertos en el bucket](aws2.png)
 
 *(Explotación)*
+
 ![Creación y subida de Web Shell](php.png)
 
-*(Troubleshooting y Post-Explotación)*
+*(Troubleshooting y Post-Explotación)
+*
 ![Instalación de Netcat](installnetcat.png)
 ![Servidor web local con Python para transferir payload](python.png)
 ![Reverse Shell exitosa con Netcat y extracción de la flag](netcat.png)
