@@ -1,4 +1,4 @@
-````
+
 # TryHackMe Writeup: TakeOver
 
 **Fecha de ejecución:** 27 de junio de 2026
@@ -10,6 +10,7 @@
 ## 1. Fase de Reconocimiento
 
 Se realizó un escaneo de puertos para identificar servicios expuestos en la máquina objetivo.
+
 
 ```bash
 nmap -p 22,80,443 -sV 10.10.125.247
@@ -28,10 +29,6 @@ Se modificó el archivo `/etc/hosts` para resolver los subdominios descubiertos.
 ![Configuración /etc/hosts](hosts.png)
 
 Al inspeccionar el subdominio `secrethelpdesk934752.support.futurevera.thm` con `curl`, se descubrió una redirección a un bucket de AWS S3 que revelaba la flag.
-
-bash
-
-Copiar
 
 ```
 curl -I http://secrethelpdesk934752.support.futurevera.thm
