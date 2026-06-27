@@ -41,8 +41,8 @@
 
 ![Creación y subida de Web Shell](php.png)
 
-*(Troubleshooting y Post-Explotación)
-*
+*(Troubleshooting y Post-Explotación)*
+
 ![Instalación de Netcat](installnetcat.png)
 ![Servidor web local con Python para transferir payload](python.png)
 ![Reverse Shell exitosa con Netcat y extracción de la flag](netcat.png)
