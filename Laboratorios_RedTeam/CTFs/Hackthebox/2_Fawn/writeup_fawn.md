@@ -16,11 +16,11 @@
 
 ## Evidencias
 
-![Escaneo de puertos Nmap](Laboratorios_RedTeam/CTFs/Hackthebox/2_Fawn/nmap.png)
+![Escaneo de puertos Nmap](nmap.png)
 
-![Conexión FTP anónima](Laboratorios_RedTeam/CTFs/Hackthebox/2_Fawn/ftp.png)
+![Conexión FTP anónima](ftp.png)
 
-![Lectura de la flag](Laboratorios_RedTeam/CTFs/Hackthebox/2_Fawn/flag.png)
+![Lectura de la flag](flag.png)
 
 ---
 

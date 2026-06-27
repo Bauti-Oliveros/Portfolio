@@ -18,13 +18,13 @@
 
 ![Escaneo Nmap inicial con lentitud](nmap_lento.png)
 
-![Escaneo Nmap optimizado](Laboratorios_RedTeam/CTFs/Hackthebox/4_Redeemer/nmap.png)
+![Escaneo Nmap optimizado](nmap.png)
 
 ![Conexión a Redis y estadísticas](rediscli_1.png)
 
 ![Selección de base de datos y listado de llaves](rediscli_2.png)
 
-![Obtención de la flag](Laboratorios_RedTeam/CTFs/Hackthebox/4_Redeemer/flag.png)
+![Obtención de la flag](flag.png)
 
 ---
 

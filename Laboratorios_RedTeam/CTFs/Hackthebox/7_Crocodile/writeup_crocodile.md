@@ -18,19 +18,19 @@
 
 ## 📸 Evidencias
 
-![Escaneo inicial con Nmap](Laboratorios_RedTeam/CTFs/Hackthebox/7_Crocodile/nmap.png)
+![Escaneo inicial con Nmap](nmap.png)
 
-![Conexión FTP anónima y descarga de archivos](Laboratorios_RedTeam/CTFs/Hackthebox/7_Crocodile/ftp.png)
+![Conexión FTP anónima y descarga de archivos](ftp.png)
 
 ![Lectura de credenciales expuestas](credenciales.png)
 
-![Página institucional y Wappalyzer](Laboratorios_RedTeam/CTFs/Hackthebox/7_Crocodile/sitioweb.png)
+![Página institucional y Wappalyzer](sitioweb.png)
 
-![Enumeración de directorios con Gobuster](Laboratorios_RedTeam/CTFs/Hackthebox/7_Crocodile/gobuster.png)
+![Enumeración de directorios con Gobuster](gobuster.png)
 
 ![Portal de autenticación descubierto](login.png)
 
-![Acceso al Dashboard y obtención de la flag](Laboratorios_RedTeam/CTFs/Hackthebox/7_Crocodile/flag.png)
+![Acceso al Dashboard y obtención de la flag](flag.png)
 
 ---
 

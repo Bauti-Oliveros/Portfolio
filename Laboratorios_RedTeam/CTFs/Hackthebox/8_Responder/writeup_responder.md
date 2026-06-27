@@ -22,7 +22,7 @@
 *(Fase de Reconocimiento)*
 ![Escaneo rápido bloqueado](primer_nmap.png)
 ![Escaneo detallado exitoso](nmap_detallado.png)
-![Puerto WinRM detectado](Laboratorios_RedTeam/CTFs/Hackthebox/8_Responder/nmap_puerto.png)
+![Puerto WinRM detectado](nmap_puerto.png)
 
 *(Troubleshooting e Instalación de Responder)*
 ![Clonando repositorio de Responder](responder.png)
@@ -41,7 +41,7 @@
 ![Contraseña crackeada desde el log automático](password.png)
 
 *(Post-Explotación)*
-![Acceso vía WinRM y obtención de flag](Laboratorios_RedTeam/CTFs/Hackthebox/8_Responder/flag.png)
+![Acceso vía WinRM y obtención de flag](flag.png)
 
 ---
 

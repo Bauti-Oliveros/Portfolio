@@ -22,7 +22,7 @@ Una vez confirmada la conectividad, procedí con el escaneo de puertos y detecci
 sudo nmap -sV 10.129.154.105
 ```
 
-![Escaneo Nmap](Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/nmap.png)
+![Escaneo Nmap](nmap.png)
 
 **Resultados del escaneo:** Se identificó que el puerto `23/tcp` se encontraba abierto, ejecutando el servicio **Telnet** (`Linux telnetd`).
 ## 2. Explotación y Compromiso
@@ -44,7 +44,7 @@ ls
 cat flag.txt
 ```
 
-![Obtención de la flag](Laboratorios_RedTeam/CTFs/Hackthebox/1_Meow/flag.png)
+![Obtención de la flag](flag.png)
 ## 3. Reporte de Vulnerabilidad y Riesgo
 
 - **Vulnerabilidad Principal:** El sistema permite el acceso remoto mediante Telnet utilizando la cuenta de administrador (`root`) con una credencial en blanco (ausencia de contraseña).

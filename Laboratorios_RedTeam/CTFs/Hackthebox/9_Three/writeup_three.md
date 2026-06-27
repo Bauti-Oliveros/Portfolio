@@ -27,8 +27,8 @@
 ![Verificación de IP VPN local](ip_a.png)
 
 *(Enumeración de VHOSTS)*
-![Falsos positivos masivos en Gobuster](gobuster.jpg)
-![Enumeración exitosa de VHOSTS](gobuster2.jpg)
+![Falsos positivos masivos en Gobuster](gobuster.png)
+![Enumeración exitosa de VHOSTS](gobuster2.png)
 
 *(Interacción con S3)*
 ![Configuración y lectura del bucket S3](aws.png)

@@ -19,13 +19,13 @@
 
 ## 📸 Evidencias
 
-![Escaneo de puertos Nmap](Laboratorios_RedTeam/CTFs/Hackthebox/5_Appointment/nmap.png)
+![Escaneo de puertos Nmap](nmap.png)
 
-![Enumeración de directorios con Gobuster](Laboratorios_RedTeam/CTFs/Hackthebox/5_Appointment/gobuster.png)
+![Enumeración de directorios con Gobuster](gobuster.png)
 
-![Portal Login con payload SQLi](Laboratorios_RedTeam/CTFs/Hackthebox/5_Appointment/sitioweb.png)
+![Portal Login con payload SQLi](sitioweb.png)
 
-![Obtención de la flag](Laboratorios_RedTeam/CTFs/Hackthebox/5_Appointment/flag.png)
+![Obtención de la flag](flag.png)
 
 ---
 

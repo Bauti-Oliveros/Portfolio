@@ -19,11 +19,11 @@
 
 ![Escaneo acelerado de Nmap](nmap_total.png)
 
-![Puerto MySQL abierto detectado](Laboratorios_RedTeam/CTFs/Hackthebox/6_Sequel/nmap_puerto.png)
+![Puerto MySQL abierto detectado](nmap_puerto.png)
 
 ![Conexión a MariaDB sin credenciales](mysql.png)
 
-![Obtención de la flag en la base de datos](Laboratorios_RedTeam/CTFs/Hackthebox/6_Sequel/flag.png)
+![Obtención de la flag en la base de datos](flag.png)
 
 ---
 

@@ -15,11 +15,11 @@
 
 ## Evidencias
 
-![Escaneo de puertos Nmap](Laboratorios_RedTeam/CTFs/Hackthebox/3_Dancing/nmap.png)
+![Escaneo de puertos Nmap](nmap.png)
 
 ![Listado de recursos compartidos SMB](smbclient.png)
 
-![Conexión SMB y lectura de flag](Laboratorios_RedTeam/CTFs/Hackthebox/3_Dancing/flag.png)
+![Conexión SMB y lectura de flag](flag.png)
 
 ---
 
