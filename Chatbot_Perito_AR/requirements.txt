@@ -1,0 +1,15 @@
+# Orquestador
+langchain==0.1.16
+langchain-community==0.0.34
+
+# Base de datos vectorial
+chromadb==0.4.24
+
+# Embeddings locales (bge-m3)
+sentence-transformers==2.7.0
+
+# Extracción de documentos
+pymupdf
+
+# UI
+streamlit==1.33.0

@@ -1,0 +1,650 @@
+{
+    "metricas": {
+        "modelo": "granite4.2:8b",
+        "total": 20,
+        "aciertos": 17,
+        "accuracy": 0.85
+    },
+    "resultados": [
+        {
+            "caso": "CP001",
+            "hallazgo": "Un usuario accedió sin autorización a una cuenta de correo.",
+            "esperado": "153 bis",
+            "obtenido": "153 bis",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Un usuario accedió sin autorización a una cuenta de correo.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Un usuario accedió sin autorización a una cuenta de correo.",
+                    "articulo_id": "153 bis",
+                    "cita_textual": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.",
+                    "justificacion": "El hallazgo indica que un usuario accedió sin autorización a una cuenta de correo, lo cual corresponde al artículo 153 bis que sanciona el acceso sin autorización a un sistema o dato informático de acceso restringido."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP002",
+            "hallazgo": "Se eliminaron registros antes de una investigación pericial.",
+            "esperado": "255",
+            "obtenido": "255",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se eliminaron registros antes de una investigación pericial.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se eliminaron registros antes de una investigación pericial.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica que se eliminaron registros antes de una investigación pericial, lo cual coincide con la cláusula de destrucción o inutilización de registros destinados a servir de prueba ante la autoridad competente, tal como se define en el artículo 255."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG001",
+            "hallazgo": "La empresa busca mejorar su estrategia de backups.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "La empresa busca mejorar su estrategia de backups.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "La empresa busca mejorar su estrategia de backups.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP003",
+            "hallazgo": "Se utilizó una contraseña robada para ingresar al correo.",
+            "esperado": "153 bis",
+            "obtenido": "153 bis",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se utilizó una contraseña robada para ingresar al correo.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se utilizó una contraseña robada para ingresar al correo.",
+                    "articulo_id": "153 bis",
+                    "cita_textual": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.",
+                    "justificacion": "El hallazgo indica el uso de una contraseña robada (sin autorización) para ingresar al correo, lo cual corresponde al acceso sin autorización a un sistema o dato informático de acceso restringido descrito en el artículo 153 bis."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP004",
+            "hallazgo": "Ingresó sin autorización al sistema de la organización.",
+            "esperado": "153 bis",
+            "obtenido": "153 bis",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Ingresó sin autorización al sistema de la organización.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Ingresó sin autorización al sistema de la organización.",
+                    "articulo_id": "153 bis",
+                    "cita_textual": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.",
+                    "justificacion": "El hallazgo indica ingreso sin autorización al sistema de la organización, lo cual coincide con el artículo 153 bis que sanciona el acceso sin autorización a un sistema o dato informático de acceso restringido."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP005",
+            "hallazgo": "Un empleado eliminó archivos ajenos de manera intencional.",
+            "esperado": "183",
+            "obtenido": "183",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Un empleado eliminó archivos ajenos de manera intencional.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Un empleado eliminó archivos ajenos de manera intencional.",
+                    "articulo_id": "183",
+                    "cita_textual": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, siempre que el hecho no constituya otro delito más severamente penado.",
+                    "justificacion": "El hallazgo indica destrucción intencional de archivos ajenos, lo cual coincide con el verbo 'destruyere' del artículo 183."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP006",
+            "hallazgo": "Se dañó información almacenada por otro usuario.",
+            "esperado": "183",
+            "obtenido": "",
+            "correcto": false,
+            "salida": {
+                "hallazgo": "Se dañó información almacenada por otro usuario.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Se dañó información almacenada por otro usuario.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP007",
+            "hallazgo": "Se ocultaron registros requeridos para una investigación.",
+            "esperado": "255",
+            "obtenido": "255",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se ocultaron registros requeridos para una investigación.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se ocultaron registros requeridos para una investigación.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica que se ocultaron registros requeridos para una investigación, lo cual coincide directamente con el verbo 'ocultare' del artículo 255."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP008",
+            "hallazgo": "Se destruyeron evidencias digitales antes del peritaje.",
+            "esperado": "255",
+            "obtenido": "255",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se destruyeron evidencias digitales antes del peritaje.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se destruyeron evidencias digitales antes del peritaje.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica destrucción de evidencias digitales antes del peritaje, lo cual coincide con la cláusula 'destruyere' del artículo 255, que tipifica como delito la destrucción de objetos destinados a servir de prueba ante la autoridad competente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG002",
+            "hallazgo": "Actualizar servidores de correo electrónico.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Actualizar servidores de correo electrónico.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Actualizar servidores de correo electrónico.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG003",
+            "hallazgo": "Implementar copias de seguridad incrementales.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Implementar copias de seguridad incrementales.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Implementar copias de seguridad incrementales.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP009",
+            "hallazgo": "Se utilizaron credenciales ajenas para ingresar al sistema.",
+            "esperado": "153 bis",
+            "obtenido": "153 bis",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se utilizaron credenciales ajenas para ingresar al sistema.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se utilizaron credenciales ajenas para ingresar al sistema.",
+                    "articulo_id": "153 bis",
+                    "cita_textual": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.",
+                    "justificacion": "El hallazgo indica el uso de credenciales ajenas para ingresar al sistema, lo cual corresponde directamente al artículo 153 bis que sanciona el acceso sin autorización mediante credenciales ajenas."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP010",
+            "hallazgo": "Un tercero ingresó sin permiso a una base de datos restringida.",
+            "esperado": "153 bis",
+            "obtenido": "153 bis",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Un tercero ingresó sin permiso a una base de datos restringida.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Un tercero ingresó sin permiso a una base de datos restringida.",
+                    "articulo_id": "153 bis",
+                    "cita_textual": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la que posea, a un sistema o dato informático de acceso restringido.",
+                    "justificacion": "El hallazgo indica que un tercero ingresó sin permiso a una base de datos restringida, lo cual corresponde directamente al artículo 153 bis que sanciona el acceso sin autorización a sistemas o datos informáticos de acceso restringido."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP011",
+            "hallazgo": "Un usuario borró archivos pertenecientes a otro empleado.",
+            "esperado": "183",
+            "obtenido": "",
+            "correcto": false,
+            "salida": {
+                "hallazgo": "Un usuario borró archivos pertenecientes a otro empleado.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Un usuario borró archivos pertenecientes a otro empleado.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP012",
+            "hallazgo": "Se inutilizaron documentos digitales almacenados en un servidor.",
+            "esperado": "183",
+            "obtenido": "255",
+            "correcto": false,
+            "salida": {
+                "hallazgo": "Se inutilizaron documentos digitales almacenados en un servidor.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se inutilizaron documentos digitales almacenados en un servidor.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica que se inutilizaron documentos digitales almacenados en un servidor. El artículo 255 menciona explícitamente 'inutilizare' como una conducta reprimida cuando se inutilizan objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público. No se menciona autorización ni intención delictiva; solo se describe la acción de inutilización."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP013",
+            "hallazgo": "Se destruyeron registros requeridos por una investigación judicial.",
+            "esperado": "255",
+            "obtenido": "255",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se destruyeron registros requeridos por una investigación judicial.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se destruyeron registros requeridos por una investigación judicial.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica destrucción de registros requeridos por una investigación judicial, lo cual coincide con la cláusula 'destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público' del artículo 255."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "CP014",
+            "hallazgo": "Se alteró evidencia digital antes de la pericia.",
+            "esperado": "255",
+            "obtenido": "255",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se alteró evidencia digital antes de la pericia.",
+                "valido": true,
+                "mensaje": "CITA VALIDADA",
+                "resultado": {
+                    "hallazgo": "Se alteró evidencia digital antes de la pericia.",
+                    "articulo_id": "255",
+                    "cita_textual": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competente, registros o documentos confiados a la custodia de un funcionario o de otra persona en el interés público.",
+                    "justificacion": "El hallazgo indica que se alteró evidencia digital antes de la pericia, lo cual coincide con el verbo 'alterare' del artículo 255, que incluye objetos destinados a servir de prueba ante la autoridad competente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG004",
+            "hallazgo": "Se actualizó el sistema operativo del servidor.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se actualizó el sistema operativo del servidor.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Se actualizó el sistema operativo del servidor.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG005",
+            "hallazgo": "La organización implementó autenticación multifactor.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "La organización implementó autenticación multifactor.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "La organización implementó autenticación multifactor.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    }
+                ]
+            }
+        },
+        {
+            "caso": "NEG006",
+            "hallazgo": "Se realizó mantenimiento preventivo de infraestructura.",
+            "esperado": "",
+            "obtenido": "",
+            "correcto": true,
+            "salida": {
+                "hallazgo": "Se realizó mantenimiento preventivo de infraestructura.",
+                "valido": true,
+                "mensaje": "ABSTENCIÓN CORRECTA: No hay base legal suficiente.",
+                "resultado": {
+                    "hallazgo": "Se realizó mantenimiento preventivo de infraestructura.",
+                    "articulo_id": "",
+                    "cita_textual": "",
+                    "justificacion": "No hay base legal suficiente."
+                },
+                "documentos_recuperados": [
+                    {
+                        "articulo": "Art. 183",
+                        "texto": "Será reprimido con prisión de quince días a un año, el que destruyere, inutilizare, hiciere desaparecer o de cualquier modo dañare una cosa mueble o inmueble o un animal, total o parcialmente ajeno, s"
+                    },
+                    {
+                        "articulo": "Art. 255",
+                        "texto": "Será reprimido con prisión de un mes a cuatro años, el que sustrajere, alterare, ocultare, destruyere o inutilizare en todo o en parte objetos destinados a servir de prueba ante la autoridad competent"
+                    },
+                    {
+                        "articulo": "Art. 153 bis",
+                        "texto": "Será reprimido con prisión de quince días a seis meses, si no resultare un delito más severamente penado, el que a sabiendas accediere por cualquier medio, sin la debida autorización o excediendo la q"
+                    }
+                ]
+            }
+        }
+    ]
+}
