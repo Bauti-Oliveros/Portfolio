@@ -1,0 +1,8 @@
+
+
+TotalSeconds      : 34,6500815
+TotalMilliseconds : 34650,0815
+
+
+
+

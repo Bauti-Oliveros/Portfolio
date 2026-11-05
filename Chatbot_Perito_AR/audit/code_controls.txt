@@ -1,0 +1,55 @@
+﻿C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:22: os.environ["ANONYMIZED_TELEMETRY"] = "False"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:24: os.environ["LANGCHAIN_TRACING_V2"] = "false"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:44: persistent_client = chromadb.PersistentClient(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:47: anonymized_telemetry=False
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:74: "cita_textual",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:136: "cita_textual",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:232: analizar = st.button(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:251: docs = db.similarity_search(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:268: temperature=0.0,
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:269: format="json"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:293: "cita_textual":"",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\app.py:325: "cita_textual",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:16: os.environ["ANONYMIZED_TELEMETRY"] = "False"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:18: os.environ["LANGCHAIN_TRACING_V2"] = "false"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:25: TOP_K = 5
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:32: def normalizar_articulo(valor):
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:65: datos.get("cita_textual", "")
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:68: articulo_normalizado = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:101: articulo_documento = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:129: "CITA INSERTADA Y VALIDADA DETERMINÍSTICAMENTE",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:152: cliente = chromadb.PersistentClient(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:155: anonymized_telemetry=False
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:179: articulo_normalizado = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:184: articulo_documento = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:207: documentos_recuperados = db.similarity_search(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:209: k=TOP_K
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:244: temperature=0.0,
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:245: format="json"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:281: 8. No generes cita_textual. Python incorporará después
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:336: "top_k": TOP_K,
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:392: if normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:399: "cita_textual": "",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:415: "cita_textual": "",
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:420: # CITA INSERTADA POR PYTHON
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:434: "cita_textual": (
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\analizador_v21.py:470: "top_k": TOP_K,
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest.py:5: from langchain.text_splitter import RecursiveCharacterTextSplitter
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest.py:14: format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest.py:36: logger.warning(f"Directorio {CORPUS_DIR} creado. Inserte PDFs normativos.")
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest.py:57: text_splitter = RecursiveCharacterTextSplitter(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:18: os.environ["ANONYMIZED_TELEMETRY"] = "False"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:20: os.environ["LANGCHAIN_TRACING_V2"] = "false"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:44: format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:86: def normalizar_articulo(valor):
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:107: articulo_id = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:133: clave = normalizar_articulo(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:254: cliente = chromadb.PersistentClient(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:257: anonymized_telemetry=False
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:7: from langchain.text_splitter import RecursiveCharacterTextSplitter
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:16: os.environ["ANONYMIZED_TELEMETRY"] = "False"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:18: os.environ["LANGCHAIN_TRACING_V2"] = "false"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:29: format="%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:133: separador = RecursiveCharacterTextSplitter(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:173: cliente = chromadb.PersistentClient(
+C:\Users\bauti\OneDrive\Escritorio\backup pc\Portfolio\Chatbot_Perito_AR\src\rag\ingest_forensia.py:176: anonymized_telemetry=False

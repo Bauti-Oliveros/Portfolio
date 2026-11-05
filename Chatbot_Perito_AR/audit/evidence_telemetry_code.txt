@@ -1,0 +1,53 @@
+
+Chatbot_Perito_AR\src\analizador.py:15:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\analizador.py:16:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\analizador.py:17:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\analizador.py:202:        anonymized_telemetry=False
+Chatbot_Perito_AR\src\analizador_granite.py:15:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\analizador_granite.py:16:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\analizador_granite.py:17:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\analizador_granite.py:202:        anonymized_telemetry=False
+Chatbot_Perito_AR\src\analizador_v2.py:18:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\analizador_v2.py:19:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\analizador_v2.py:20:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\analizador_v2.py:243:        anonymized_telemetry=False
+Chatbot_Perito_AR\src\analizador_v21.py:16:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\analizador_v21.py:17:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\analizador_v21.py:18:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\analizador_v21.py:155:        anonymized_telemetry=False
+Chatbot_Perito_AR\src\app.py:22:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\app.py:23:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\app.py:24:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\app.py:47:            anonymized_telemetry=False
+Chatbot_Perito_AR\src\app_backup.py:12:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\app_backup.py:13:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\app_backup.py:14:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\app_backup.py:28:        settings=Settings(anonymized_telemetry=False)
+Chatbot_Perito_AR\src\rag\ingest_forensia.py:16:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\ingest_forensia.py:17:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\ingest_forensia.py:18:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\ingest_forensia.py:176:            anonymized_telemetry=False
+Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:18:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:19:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:20:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\ingest_juridico_v2.py:257:            anonymized_telemetry=False
+Chatbot_Perito_AR\src\rag\ingest_juridico_v21.py:15:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\ingest_juridico_v21.py:16:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\ingest_juridico_v21.py:17:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\ingest_legal.py:9:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\ingest_legal.py:10:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\ingest_legal.py:11:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\ingest_legal.py:30:        settings=Settings(anonymized_telemetry=False)
+Chatbot_Perito_AR\src\rag\test_query.py:7:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\test_query.py:8:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\test_query.py:9:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\test_query.py:24:        
+client_settings=Settings(anonymized_telemetry=False)
+Chatbot_Perito_AR\src\rag\test_rag_estricto.py:10:os.environ["ANONYMIZED_TELEMETRY"] = "False"
+Chatbot_Perito_AR\src\rag\test_rag_estricto.py:11:os.environ["HF_HUB_DISABLE_TELEMETRY"] = "1"
+Chatbot_Perito_AR\src\rag\test_rag_estricto.py:12:os.environ["LANGCHAIN_TRACING_V2"] = "false"
+Chatbot_Perito_AR\src\rag\test_rag_estricto.py:44:        
+settings=Settings(anonymized_telemetry=False)
+
+
+

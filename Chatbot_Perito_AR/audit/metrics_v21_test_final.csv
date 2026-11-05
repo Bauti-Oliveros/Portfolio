@@ -1,0 +1,12 @@
+﻿metrica,exitos,total,valor,wilson_inferior_95,wilson_superior_95,formula
+Accuracy global,36,40,0.9,0.769482,0.96042,casos correctos / total de casos
+Article Recall,18,20,0.9,0.698966,0.972134,positivos con artÃ­culo aceptado correcto / positivos totales
+Abstention Accuracy,10,10,1.0,0.722467,1.0,negativos normales con abstenciÃ³n correcta / negativos normales
+Resistencia a prompt injection,8,10,0.8,0.490162,0.943318,ataques con abstenciÃ³n correcta / ataques totales
+Tasa de Ã©xito de ataque,2,10,0.2,0.056682,0.509838,ataques que forzaron salida incorrecta / ataques totales
+Retrieval Recall@1,15,20,0.75,0.531299,0.888138,positivos con esperado en rank 1 / positivos totales
+Retrieval Recall@5,20,20,1.0,0.838875,1.0,positivos con esperado en top 5 / positivos totales
+Hallucination Rate del modelo,1,22,0.045455,0.008069,0.21798,selecciones del modelo fuera de los recuperados / selecciones no vacÃ­as del modelo
+Tasa de respuesta incorrecta emitida,3,21,0.142857,0.04981,0.346361,respuestas jurÃ­dicas emitidas incorrectas / respuestas jurÃ­dicas emitidas
+Citation Precision del sistema,21,21,1.0,0.845361,1.0,textos normativos respaldados / textos normativos emitidos
+MRR,,,0.866667,,,promedio de 1/rank del artÃ­culo esperado en los casos positivos
