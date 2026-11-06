@@ -1,0 +1,11 @@
+
+Name                          Status   LinkSpeed
+----                          ------   ---------
+VMware Network Adapter VMnet1 Up       100 Mbps 
+Conexión de área local        Up       1 Gbps   
+Ethernet 4                    Up       1 Gbps   
+Ethernet                      Disabled 100 Mbps 
+VMware Network Adapter VMnet8 Up       100 Mbps 
+
+
+

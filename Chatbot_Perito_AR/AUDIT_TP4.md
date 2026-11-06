@@ -308,3 +308,85 @@ Evidencias:
 - audit/offline_test_ollama_ps_FAILED.txt
 
 - audit/offline_failure_observation.txt
+
+## Verificacion offline de Perito.AR v2.1.1
+
+Se creo una variante de despliegue que carga BAAI/bge-m3 desde un snapshot local y utiliza rutas calculadas desde __file__.
+
+Condiciones de la prueba:
+
+- Adaptador Ethernet deshabilitado.
+- Adaptador Wi-Fi deshabilitado.
+- Test TCP hacia 1.1.1.1:443 con resultado False.
+- Proceso nuevo de Python.
+- Variables HF_HUB_OFFLINE=1 y TRANSFORMERS_OFFLINE=1 configuradas antes de los imports.
+- Snapshot local ubicado en models/bge-m3.
+- Base vectorial cargada desde data/db_vector_v2 mediante ruta basada en __file__.
+
+Resultado:
+
+- El modelo de embeddings se cargo desde el snapshot local.
+- No se observaron intentos de acceso a huggingface.co.
+- ChromaDB abrio la coleccion codigo_penal_v2.
+- Ollama mantuvo qwen3:8b disponible localmente en GPU.
+- La consulta finalizo correctamente.
+- Articulo seleccionado: Art. 153.
+- Texto normativo insertado y validado determinísticamente.
+
+Conclusion:
+
+- La variante v2.1.1 completo una consulta sin conectividad TCP externa.
+- La prueba demuestra operacion funcional sin red en el entorno evaluado.
+- No constituye una garantia de aislamiento air-gapped ni de ausencia universal de trafico.
+- Los mensajes de captura de telemetria de ChromaDB siguieron presentes, pero no interrumpieron la ejecucion.
+
+Separacion de versiones:
+
+- perito-ar-tp4 conserva la version v2.1 evaluada originalmente.
+- analizador_v211_offline.py contiene el endurecimiento de despliegue offline.
+- Los resultados del benchmark v2.1 no se atribuiran a v2.1.1 hasta comprobar equivalencia completa.
+
+Evidencias:
+
+- audit/offline_v211_connectivity.txt
+- audit/offline_v211_output.txt
+- audit/offline_v211_ollama_ps.txt
+- audit/offline_v211_adapters.txt
+- audit/offline_v211_timestamp.txt
+- bge_m3_hash_manifest.txt
+- bge_m3_snapshot_sha256.txt
+
+## Equivalencia funcional de Perito.AR v2.1.1 offline
+
+Se ejecuto el benchmark final de 40 casos utilizando analizador_v211_offline.py y el snapshot local de BAAI/bge-m3.
+
+Resultados:
+
+- Accuracy oficial v2.1: 36/40, 90.0%.
+- Accuracy v2.1.1 offline: 36/40, 90.0%.
+- Article Recall: 18/20 en ambas versiones.
+- Casos sin respuesta esperada correctos: 18/20 en ambas versiones.
+- Prompt injections sin salida forzada: 8/10 en ambas versiones.
+- Retrieval Recall Top-5: 20/20 en ambas versiones.
+- Respuestas validadas: 39/40 en ambas versiones.
+- Rechazos del validador: 1/40 en ambas versiones.
+- Mismo articulo seleccionado: 40/40 casos.
+- Mismo estado correcto o incorrecto: 40/40 casos.
+- Casos modificados: ninguno.
+
+Conclusion:
+
+- La variante offline resulto funcionalmente equivalente a la version evaluada en los 40 casos.
+- El cambio de despliegue no modifico las selecciones ni las metricas del benchmark.
+- La equivalencia observada corresponde al entorno y al conjunto evaluados.
+- El tag perito-ar-tp4 permanece como version original evaluada.
+
+Evidencias:
+
+- results/benchmark_qwen_v211_offline_equivalence.json
+- audit/offline_equivalence_report.json
+- audit/benchmark_v211_offline_console.txt
+- audit/official_hash_before_offline_equivalence.txt
+- audit/official_hash_after_offline_equivalence.txt
+- src/analizador_v211_offline.py
+- tests/benchmark_v211_offline.py

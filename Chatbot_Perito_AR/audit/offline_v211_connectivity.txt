@@ -1,0 +1,10 @@
+
+
+ComputerName     : 1.1.1.1
+RemotePort       : 443
+TcpTestSucceeded : False
+InterfaceAlias   : 
+
+
+
+
