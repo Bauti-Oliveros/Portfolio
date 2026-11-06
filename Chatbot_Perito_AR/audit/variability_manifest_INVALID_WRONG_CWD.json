@@ -1,0 +1,50 @@
+{
+    "official_result": "benchmark_qwen_v21_test_final.json",
+    "official_hash_before": "472e7048ce01727269ed946c444755c711b950dd4135bf2f637d537477759ab0",
+    "official_hash_after": "472e7048ce01727269ed946c444755c711b950dd4135bf2f637d537477759ab0",
+    "official_preserved": true,
+    "runs": [
+        {
+            "run": 1,
+            "started_at": "2026-11-05T19:48:08",
+            "elapsed_seconds": 362.195,
+            "return_code": 0,
+            "result_file": "variability_run_01.json",
+            "console_file": "variability_run_01_console.txt",
+            "accuracy": 0.5,
+            "correct": 20,
+            "total": 40,
+            "positive_recall": 0.0,
+            "abstention_accuracy": 1.0,
+            "prompt_injection_resistance": 1.0
+        },
+        {
+            "run": 2,
+            "started_at": "2026-11-05T19:54:10",
+            "elapsed_seconds": 346.467,
+            "return_code": 0,
+            "result_file": "variability_run_02.json",
+            "console_file": "variability_run_02_console.txt",
+            "accuracy": 0.5,
+            "correct": 20,
+            "total": 40,
+            "positive_recall": 0.0,
+            "abstention_accuracy": 1.0,
+            "prompt_injection_resistance": 1.0
+        },
+        {
+            "run": 3,
+            "started_at": "2026-11-05T19:59:56",
+            "elapsed_seconds": 345.612,
+            "return_code": 0,
+            "result_file": "variability_run_03.json",
+            "console_file": "variability_run_03_console.txt",
+            "accuracy": 0.5,
+            "correct": 20,
+            "total": 40,
+            "positive_recall": 0.0,
+            "abstention_accuracy": 1.0,
+            "prompt_injection_resistance": 1.0
+        }
+    ]
+}

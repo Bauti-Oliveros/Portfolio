@@ -1,0 +1,30 @@
+﻿PRUEBA FUNCIONAL SIN CONECTIVIDAD
+
+Conectividad externa:
+TCP hacia 1.1.1.1:443 no disponible.
+
+Resultado:
+Perito.AR v2.1 no completo el arranque desde un proceso nuevo.
+
+Componente que fallo:
+HuggingFaceBgeEmbeddings con BAAI/bge-m3.
+
+Destino remoto intentado:
+https://huggingface.co/BAAI/bge-m3/
+
+Error observado:
+NameResolutionError y MaxRetryError al intentar consultar archivos del modelo.
+
+Archivos solicitados durante los reintentos:
+- modules.json
+- config_sentence_transformers.json
+- README.md
+
+Ollama:
+qwen3:8b permanecio cargado localmente en GPU.
+
+Conclusion:
+La version v2.1 no funciona completamente offline desde un arranque en frio. HF_HUB_DISABLE_TELEMETRY desactiva telemetria, pero no obliga a Hugging Face a trabajar sin red.
+
+Nota de evidencia:
+La salida completa de stderr no fue guardada automaticamente por Tee-Object. Este archivo registra el comportamiento observado en la terminal y debe leerse junto con offline_connectivity_check_FAILED.txt y offline_test_ollama_ps_FAILED.txt.

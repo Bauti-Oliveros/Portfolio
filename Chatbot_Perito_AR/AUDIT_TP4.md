@@ -214,35 +214,97 @@ Evidencias:
 - tests/test_tp4_audit.py
 - audit/pytest_tp4.txt
 
-## Verificacion de estabilidad para la demostracion
+## Estudio de reproducibilidad
 
-Se seleccionaron cuatro casos del test final y cada uno fue ejecutado tres veces, sin modificar el pipeline.
+Se comparo la corrida oficial con tres repeticiones completas de los 40 casos.
+
+Condiciones:
+
+- Mismo modelo qwen3:8b.
+- Mismo corpus codigo_penal_v2.
+- Mismo prompt.
+- Mismo benchmark.
+- Mismo entorno virtual.
+- Directorio de trabajo correcto: Chatbot_Perito_AR.
 
 Resultados:
 
-- Camino feliz TEST_POS_001: 0/3 clasificaciones correctas; produjo tres abstenciones incorrectas.
-- Abstencion TEST_NEG_001: 3/3 abstenciones correctas.
-- Rechazo historico TEST_POS_016: produjo tres abstenciones incorrectas; el rechazo del validador observado en el benchmark final no se reprodujo.
-- Prompt injection TEST_PI_002: 3/3 ataques resistidos mediante abstencion.
+- Corrida oficial: 36/40, 90.0%.
+- Repeticion 1: 36/40, 90.0%.
+- Repeticion 2: 36/40, 90.0%.
+- Repeticion 3: 36/40, 90.0%.
+- Mismo articulo seleccionado en las cuatro corridas: 40/40 casos.
+- Casos con articulo variable: 0/40.
+- Casos cuyo estado correcto o incorrecto cambio: 0/40.
+
+Tiempos:
+
+- Repeticion 1: 657.783 segundos.
+- Repeticion 2: 625.896 segundos.
+- Repeticion 3: 622.689 segundos.
+- Promedio: 635.456 segundos, aproximadamente 10 minutos y 35 segundos.
 
 Conclusion:
 
-- Los resultados por caso del benchmark final no fueron completamente reproducibles en ejecuciones posteriores.
-- Dos comportamientos fueron estables: la abstencion negativa y la resistencia a TEST_PI_002.
-- El camino feliz seleccionado no es apto para una demostracion en vivo porque fallo en las tres repeticiones.
-- TEST_POS_016 tampoco es apto para demostrar un rechazo estable del validador.
-- No se modificaron prompt, corpus, modelo ni parametros para corregir estas diferencias.
+- Las cuatro corridas fueron empiricamente reproducibles en este entorno.
+- Coincidieron las metricas agregadas, el articulo seleccionado y el estado por caso.
+- Esto no constituye una garantia universal de determinismo fuera del entorno evaluado.
+- seed, think y num_ctx no estaban configurados expresamente por la aplicacion.
 
-Factores no controlados que pueden afectar la reproducibilidad:
+Incidente metodologico:
 
-- seed no configurado.
-- thinking habilitado por defecto en Qwen3.
-- num_ctx no fijado expresamente por la aplicacion.
-- estado previo y residencia del modelo.
+- Tres corridas anteriores y una demo de cuatro casos se ejecutaron desde un directorio incorrecto.
+- Esas ejecuciones utilizaron una ruta relativa equivocada para data/db_vector_v2.
+- Los resultados de esas ejecuciones fueron invalidados y conservados con el prefijo INVALID_WRONG_CWD.
+- No forman parte de las metricas ni del estudio de reproducibilidad.
 
 Evidencias:
 
-- demo_tp4.py
-- audit/demo_tp4_runs.json
-- audit/demo_tp4_runs.csv
-- audit/demo_tp4_console.txt
+- audit/variability_manifest.json
+- audit/variability_run_01.json
+- audit/variability_run_02.json
+- audit/variability_run_03.json
+- audit/variability_analysis.md
+- audit/variability_by_case.csv
+
+
+## Prueba funcional sin conectividad
+
+Se deshabilito el adaptador Ethernet y se comprobo que una conexion TCP a 1.1.1.1:443 no era posible.
+
+Resultado:
+
+- La prueba de conectividad externa fallo como se esperaba.
+- Ollama permanecio disponible localmente con qwen3:8b cargado en GPU.
+- Perito.AR no completo la consulta.
+- HuggingFaceBgeEmbeddings intento consultar huggingface.co para obtener archivos de BAAI/bge-m3.
+- La carga produjo reintentos y finalmente fallo por ausencia de resolucion DNS.
+
+Conclusion:
+
+- Perito.AR v2.1 no demostro funcionamiento completamente offline desde un proceso nuevo.
+- El modelo generativo de Ollama estaba disponible localmente.
+- El componente de embeddings mantuvo una dependencia de comprobacion remota durante la inicializacion.
+- No corresponde describir v2.1 como air-gapped ni como completamente offline.
+- La captura puntual anterior sin conexiones externas no detecto esta dependencia porque se realizo con conectividad disponible.
+
+Correccion posterior propuesta:
+
+- Configurar HF_HUB_OFFLINE=1.
+- Configurar TRANSFORMERS_OFFLINE=1.
+- Cargar BAAI/bge-m3 desde una ruta local versionada.
+- Usar local_files_only cuando la biblioteca utilizada lo permita.
+- Probar el arranque en frio con todos los adaptadores externos desconectados.
+- Registrar el hash del snapshot local del modelo de embeddings.
+
+Decision TP4:
+
+- No se modifica la version congelada antes de la entrega.
+- El hallazgo se documenta como limitacion comprobada.
+
+Evidencias:
+
+- audit/offline_connectivity_check_FAILED.txt
+- audit/offline_test_ollama_ps_FAILED.txt
+
+- audit/offline_failure_observation.txt
