@@ -17,3 +17,4 @@ data/raw_corpus/
 *_backup.py
 src/rag/ingest_juridico_v21.py
 models/
+*.pre_demo_backup.*
